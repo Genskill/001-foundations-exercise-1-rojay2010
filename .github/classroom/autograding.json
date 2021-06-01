@@ -1,0 +1,14 @@
+{
+  "tests": [
+    {
+      "name": "BMI test",
+      "setup": "/bin/sh setup.sh",
+      "run": "/bin/sh test.sh",
+      "input": "",
+      "output": "Test:Overweight passed\r\nTest:Obese passed\r\nTest:normal weight passed\r\nTest:underweight passed",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 4
+    }
+  ]
+}
